@@ -2,6 +2,9 @@
 
 Script en bash para visualizar archivos dentro de un servicio TFTP.
 
+![Ejemplo](https://raw.githubusercontent.com/JuanFajardo/TFTPBrute/main/img.png)
+
+
 
 __Escaneo con nmap__
 TFTP es un servicio que corre bajo el puerto 69 UDP
@@ -10,8 +13,7 @@ TFTP es un servicio que corre bajo el puerto 69 UDP
 $ sudo nmap -sVU -p69 192.168.1.48
 
 ```
-
-__Ejemplo de uso__
+## Uso
 
 ```bash
 ./TFTPBrute.sh -i [IP] -w [Diccionario]
@@ -19,9 +21,9 @@ __Ejemplo de uso__
 ./TFTPBrute.sh -i 192.168.1.48  -w wordlist_tftp
 ```
 
-__Requisito__
+## Requisitos
 
-Clonar el repositorio [https://github.com/m4tx/pyTFTP](https://github.com/m4tx/pyTFTP)
+- [https://github.com/m4tx/pyTFTP](https://github.com/m4tx/pyTFTP)
 
 
 
